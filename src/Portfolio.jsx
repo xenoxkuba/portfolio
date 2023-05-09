@@ -50,6 +50,13 @@ const Portfolio = () => {
             alt="Typescript ToDo Screenshot"
             usedSkills="Basic TypeScript"
           />
+          <Project
+            title="Sorting Algorithms"
+            projectLink="https://docs.google.com/document/d/1rBGc2P_4LOvkpacPqnInWW2M2nLmWN25/edit?usp=sharing&ouid=101091025811563747912&rtpof=true&sd=true"
+            imgLink="/sortingAlgorithms.png"
+            alt="Sorting Algorithms Screenshot"
+            usedSkills="C#, MS Office"
+          />
         </div>
       </div>
     </div>
