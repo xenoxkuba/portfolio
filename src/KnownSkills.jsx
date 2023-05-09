@@ -17,6 +17,7 @@ const KnownSkills = () => {
     { name: "React query", level: 2 },
     { name: "Redux", level: 2 },
     { name: "SQL", level: 2 },
+    { name: "C#", level: 2 },
     { name: "TypeScript", level: 1 },
     { name: "Node js", level: 1 },
   ];
