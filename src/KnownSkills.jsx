@@ -14,6 +14,7 @@ const KnownSkills = () => {
     { name: "React Router", level: 3 },
     { name: "axios", level: 3 },
     { name: "Git", level: 3 },
+    { name: "UML", level: 3 },
     { name: "React query", level: 2 },
     { name: "Redux", level: 2 },
     { name: "SQL", level: 2 },
@@ -45,6 +46,10 @@ const KnownSkills = () => {
             ))}
           </div>
         </div>
+        <h2 className="text-2xl font-bold text-center text-white mt-8 mb-8 ">
+          Also a lot of university projects (working in groups), UML Diagrams,
+          and SQL operations...
+        </h2>
       </div>
     </div>
   );
