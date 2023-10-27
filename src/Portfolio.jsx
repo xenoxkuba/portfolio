@@ -8,18 +8,32 @@ const Portfolio = () => {
       <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Project
-            title="(Uni Project) Ecommerce with AI Panel Assistant "
+            title="30 days of pandas with Leetcode"
+            projectLink="https://github.com/xenoxkuba/leetcode-problems/blob/main/30%20days%20pandas%20Leetcode%20and%20some%20sql.pdf"
+            imgLink="/pandas-leetcode.png"
+            alt="ecommerce Screenshot"
+            usedSkills="Solved data problems in Leetcode challange with the help of pandas"
+          />
+          <Project
+            title="Data Analysis with Python Certification freeCodeCamp"
+            projectLink="https://github.com/stars/xenoxkuba/lists/medical-demographic-pageviews"
+            imgLink="/medical.png"
+            alt="ecommerce Screenshot"
+            usedSkills="Analyzed medical, demographic, pageviews and sea level data using pandas matplotlib and seaborn"
+          />
+          <Project
+            title="(Uni Project) Ecommerce AI Assistant"
             projectLink="https://ecommerce-query-ctx.vercel.app/  "
             imgLink="/ecommerceImg.png"
             alt="ecommerce Screenshot"
-            usedSkills="react query, axios, context, tailwindcss, fakestoreAPI"
+            usedSkills="React query, axios, context, tailwindcss, fakestoreAPI"
           />
           <Project
             title="(Uni Project) Weather App Chart"
             projectLink="https://jakub-purczynski-weather.vercel.app/ "
             imgLink="/weatherAppImg.png"
             alt="Weather App Screenshot"
-            usedSkills="tailwindCss, axios, OpenWeatherMap API, Victory Charts "
+            usedSkills="TailwindCss, axios, OpenWeatherMap API, Victory Charts "
           />
           <Project
             title="(Uni Project) Expense List with Charts"

@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Home() {
   const email = "jakub.purczynski@onet.pl";
+  const phoneNumber = "+48 785 748 978";
 
   return (
     <div className="bg-gradient-to-r from-black to-gray-500 min-h-screen ">
@@ -33,9 +34,12 @@ export default function Home() {
               <FaLinkedin size="4rem" />
             </a>
           </div>
-          <div className="flex justify-center  pb-8 ">
+          <div className="flex justify-center  pb-4 pt-6 ">
             <FaEnvelope size="1.5em" className="mr-4" />
             <p>{email}</p>
+          </div>
+          <div className="flex justify-center  pb-8 ">
+            <p>{phoneNumber}</p>
           </div>
         </div>
       </div>

@@ -12,9 +12,7 @@ const Project = (props) => {
             className="shadow-lg rounded-lg overflow-hidden "
           />
 
-          <p className="text-md text-gray-600 mb-2 mt-3">
-            Used Skills: {props.usedSkills}
-          </p>
+          <p className="text-md text-gray-600 mb-2 mt-3">{props.usedSkills}</p>
           <a
             href={props.projectLink}
             className="inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-300"
