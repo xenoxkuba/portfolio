@@ -1,22 +1,17 @@
 import Navigation from "./Nav";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import SkillsNav from "./SkillsNav";
 
 export default function Home() {
   const email = "jakub.purczynski@onet.pl";
 
   return (
-    <div className="bg-gradient-to-r from-fuchsia-900 to-red-800 min-h-screen ">
+    <div className="bg-gradient-to-r from-black to-gray-500 min-h-screen ">
       <Navigation />
-      <SkillsNav />
       <div className=" mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-center text-white mb-8">
-          Hi I'm Jakub
+        <h1 className="text-4xl font-bold text-center text-white mb-8 p-8">
+          Hi I'm Jakub Purczyński
         </h1>
-        <p className="text-lg font-medium text-center text-white mb-16">
-          Self taught React Web Developer
-        </p>
-        <h2 className="text-2xl font-bold text-center text-gray-400 mb-2   animate-bounce">
+        <h2 className="text-2xl font-bold text-center text-gray-400 mb-2 p-8  animate-bounce">
           Welcome to my Portfolio
         </h2>
         <div className="border-2 border-gray-400 rounded-lg  bg-gray-300 w-80 mx-auto ">
