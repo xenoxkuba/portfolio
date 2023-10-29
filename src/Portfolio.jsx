@@ -3,9 +3,9 @@ import Navigation from "./Nav";
 
 const Portfolio = () => {
   return (
-    <div className="bg-gradient-to-r from-black to-gray-500 min-h-screen">
+    <div className="bg-dataS  min-h-screen">
       <Navigation />
-      <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto py-12 px-8 sm:px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Project
             title="30 days of pandas with Leetcode"
