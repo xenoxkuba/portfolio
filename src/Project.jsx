@@ -1,25 +1,41 @@
+import React from "react";
+
 const Project = (props) => {
+  const imgStyle = {
+    width: "100%",
+    height: "auto",
+  };
+
   return (
     <div className="bg-slate-100 shadow-lg rounded-lg overflow-hidden hover:bg-slate-400 cursor-pointer transition hover:-translate-y-1 hover:scale-110 duration-300">
-      <div className="p-5">
-        <a href={props.projectLink} target="_blank">
-          <h2 className="text-xl font-medium text-gray-800 mb-3">
-            {props.title}
-          </h2>
-          <img
-            src={props.imgLink}
-            alt={props.alt}
-            className="shadow-lg rounded-lg overflow-hidden "
-          />
-
-          <p className="text-md text-gray-600 mb-2 mt-3">{props.usedSkills}</p>
-          <a
-            href={props.projectLink}
-            className="inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-300"
-            target="_blank"
-          >
-            Visit
-          </a>
+      <div className="p-5 h-full">
+        <a
+          href={props.projectLink}
+          target="_blank"
+          className="flex flex-col h-full justify-between"
+        >
+          <h2 className="text-xl font-medium text-gray-800 ">{props.title}</h2>
+          <p className="text-gray-600 mb-1">({props.linkType})</p>
+          <div>
+            <img
+              src={props.imgLink}
+              alt={props.alt}
+              style={imgStyle}
+              className="shadow-lg rounded-lg overflow-hidden"
+            />
+          </div>
+          <div>
+            <p className="text-md text-gray-600 mb-2 mt-3">
+              {props.usedSkills}
+            </p>
+            <a
+              href={props.projectLink}
+              className="inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-300"
+              target="_blank"
+            >
+              Visit
+            </a>
+          </div>
         </a>
       </div>
     </div>
